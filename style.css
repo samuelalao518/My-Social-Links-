@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'myfont' sans-serif;
+    
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    background-color: hsl(0, 0%, 12%) ;
+    border-radius: 10px;
+} 
+.profile-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.profile_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+p{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+.london{
+    color: hsl(75, 94%, 57%);
+    font-size: 12px;
+    margin-top: -16px;
+}
+.aspiring{
+    font-size: 12px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    background-color: hsl(0, 0%, 20%);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    width: 210px;
+    height: 30px;
+    border-radius: 6px;
+    font-family: 'myfont';
+    position: relative;
+}
+span{
+    position: relative;
+    top: 3px;
+    font-size: 10px;
+}
+p{
+    font-family: 'myfont';
+    font-size: 21px;
+}
+@font-face {
+    font-family: 'myfont';
+    src: url(assets/fonts/static/Inter-Regular.ttf) format(truetype);
+}
